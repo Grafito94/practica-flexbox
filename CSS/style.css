@@ -1,0 +1,38 @@
+div {
+    border: 1px solid black;
+    padding : 10px;
+    margin : 5px;
+}
+
+.contenedor1{
+
+    background-color: red;
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    align-items: center; /*center, flex-start, stretch*/
+    justify-content:center; /*Modificar como se alinean horizontalmente flex-start (Al principio), flex-end (Al final del contenedor), space-around, space-between, space-evently */
+    flex-direction: row;/*Row(Elemento todos en una fila), colum (Los acomoda todos en una columna), row-reverse( Reverso de la fila), column-reverse(acomodar columna al revez)*/
+}
+
+.s1, .s2, .s3 {
+    width: 200px; /**/
+    background-color: yellow;
+}
+
+.contenedor2 {
+    background-color: purple;
+    width: 1200px;
+    display: flex;
+
+}
+
+.seccion1, .seccion2, .seccion3 {
+    background-color: white;
+    flex: 1; /*Total medidas iguales, seccion1-tamaño 1, seccion 2 tamaño 1, seccion 3 tamaño 1, */
+    height: 100px;
+}
+.seccion3 {
+    flex: 4; /*Se puede poner el alto que queramos*/
+
+}
